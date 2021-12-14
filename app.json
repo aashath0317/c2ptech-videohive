@@ -1,0 +1,6 @@
+{
+  "name": "Start on Heroku",
+  "description": "Just test",
+  "stack": "container",
+  "addons": []
+}
