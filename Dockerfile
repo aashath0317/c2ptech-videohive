@@ -5,4 +5,4 @@ RUN chmod 777 /usr/src/app
 
 COPY . .
 
-CMD ["bash", "start.sh"]
+CMD ["bash", "run.sh"]
