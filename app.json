@@ -1,6 +1,13 @@
+
 {
   "name": "Start on Heroku",
   "description": "Just test",
   "stack": "container",
-  "addons": []
+  "addons": [],
+  "env": {
+       "CONFIG_FILE_URL": {
+        "description": "config",
+        "value": "https://gist.githubusercontent.com/aashath0317/22cdcd22b73013c4940e7d2750299c2e/raw/b70b7bd24ca751de461e6799282dfdbcedf82dcb/config.env"
+                          }
+         }
 }
