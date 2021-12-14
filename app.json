@@ -7,7 +7,7 @@
   "env": {
        "CONFIG_FILE_URL": {
         "description": "config",
-        "value": "https://gist.githubusercontent.com/aashath0317/22cdcd22b73013c4940e7d2750299c2e/raw/b70b7bd24ca751de461e6799282dfdbcedf82dcb/config.env"
+        "value": "https://gist.githubusercontent.com/aashath0317/a64a3743e64e88aa7e9a87f5b516b4b3/raw/136daac3abafab73f97d56397684628470b5d2af/config.env"
                           }
          }
 }
