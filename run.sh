@@ -18,4 +18,8 @@ mv __main__.py bot/__main__.py
 mv bot_commands.py bot/helper/telegram_helper/bot_commands.py
 mv bot_utils.py bot/helper/ext_utils/bot_utils.py
 mv gdriveTools.py bot/helper/mirror_utils/upload_utils/gdriveTools.py
+rm bot/helper/ext_utils/telegraph_helper.py
+wget https://raw.githubusercontent.com/aashath0317/MyNeed/main/telegraph_helper.py
+mv telegraph_helper.py bot/helper/ext_utils/telegraph_helper.py
+
 python3 update.py && python3 -m bot
